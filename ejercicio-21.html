@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Selectores II</title>
+	</head>
+	<style type="text/css">	
+		div > p {											
+			border: 2px solid #fabada;								
+		}
+		div + p.importante {
+			color: red;
+		}
+
+	</style>
+	<body>
+		<div>
+			<p class="importante">Párrafo 1
+				<p>Párrafo 2</p>
+			</p>
+			<p>Párrafo 3</p>
+		</div>
+		<section>
+			<p>Párrafo 4</p>
+		</section>
+		<div>
+			<p class="importante">Párrafo 5</p>
+			<p>Párrafo 6</p>
+			<p>Párrafo 7</p>
+			<p>Párrafo 8</p>
+		</div>
+		<div>
+			<p class="importante">Párrafo 9</p>
+			<p>Párrafo 10</p>
+		</div>	
+	</body>
+</html>
